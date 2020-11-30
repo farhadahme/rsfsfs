@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-page{
+    
+   border: solid 1px transparent;
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+}
+.green-point{
+    width: 408px;
+    height: 200px;
+    background: green;
+    margin: auto;
+    margin-top: 300px;
+    position: relative;
+    margin-left: 274px;
+}
+.red-point{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 152px;
+    top: 49px;
+}
+.shape1{
+    width: 200px;
+    height: 100px;
+    background: #F42A41;
+    border: 1px solid #F42A41;
+    border-radius: 50%;
+    position: absolute;
+    left: 376px;
+    outline: none;
+    border: none;
+}
+.r1{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid greenyellow;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    bottom: 516px;
+    left: 482px;
+}
+.r2{
+    width: 0;
+    height: 0;
+    border-top: 200px solid rgb(255, 0, 0);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    bottom: 516px;
+    left: 379px;
+}
+.r3{
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid rgb(146, 48, 89);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    bottom: 516px;
+    left: 275px;
+}
+.r4{
+    width: 0;
+    height: 0;
+    border-left: 200px solid rgb(146, 48, 89);
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    top: 300px;
+    left: 686px;
+}
+.r5{
+    width: 0;
+    height: 0;
+    border-right: 200px solid rgb(146, 48, 89);
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    top: 300px;
+    right: 629px;
+}
+.full-page:hover{
+    width: 900px;
+    height: 800px;
+    background: url(bg.png);
+    cursor: pointer;
+}
+.class{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
